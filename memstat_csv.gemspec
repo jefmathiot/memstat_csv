@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "memstat_csv"
   spec.version       = MemstatCsv::VERSION
   spec.authors       = ["Jef Mathiot"]
-  spec.email         = ["jeff.mathiot@gmail.com"]
+  spec.email         = ["jmathiot@servebox.com"]
   spec.summary       = %q{Log memory statistics to a CSV file.}
   spec.description   = %q{Start a thread to log memory statistics to a CSV file. Based on memstat.}
   spec.homepage      = ""
