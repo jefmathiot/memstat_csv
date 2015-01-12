@@ -32,7 +32,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 # Start collecting data
 mem_logger=MemstatCSV::Logger.new
 # ...
@@ -45,7 +45,7 @@ in a CSV file named 'memlog-PID.csv' in the system temp directory (e.g.
   `/tmp/`). If you need to override these default settings, use the `sleep_time`
 and `basedir` options:
 
-```
+```ruby
 mem_logger=MemstatCSV::Logger.new(sleep_time: 0.5, basedir: '.')
 # ...
 Thread.kill(mem_logger)
